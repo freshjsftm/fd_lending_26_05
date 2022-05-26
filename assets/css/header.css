@@ -24,9 +24,8 @@
 }
 
 .nav-list {
-  white-space: nowrap;
-  overflow-x: auto;
-
+    white-space: nowrap;
+  overflow-y: auto;
   font-size: 0;
 }
 
