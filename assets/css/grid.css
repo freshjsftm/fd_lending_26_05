@@ -12,6 +12,7 @@
 .container {
   width: 100%;
   margin: auto;
+  padding: 0 10px;
 }
 .row {
   display: flex;
@@ -92,7 +93,7 @@
     display: none;
   }
   .container{
-    width: 540px;
+    width: 560px;
   }
   .col-sm-1 {
     --size-col: calc(var(--size) * 1);
@@ -163,7 +164,7 @@
     display: none;
   }
   .container{
-    width: 720px;
+    width: 740px;
   }
   .col-md-1 {
     --size-col: calc(var(--size) * 1);
@@ -229,7 +230,7 @@
 }
 @media screen and (min-width: 992px){
   .container{
-    width: 960px;
+    width: 980px;
   }
   .col-lg-1 {
     --size-col: calc(var(--size) * 1);
@@ -295,7 +296,7 @@
 }
 @media screen and (min-width: 1200px){
   .container{
-    width: 1110px;
+    width: 1130px;
   }
   .col-xl-1 {
     --size-col: calc(var(--size) * 1);
