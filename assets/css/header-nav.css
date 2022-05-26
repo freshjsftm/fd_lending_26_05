@@ -36,15 +36,37 @@
   text-transform: uppercase;
   
 }
+.main-heading{
+  padding-bottom: 1.5rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+
+}
+.info-head{
+  color: var(--text-color);
+}
+.btn-send{
+  font-size: 1.3rem;
+  background-color: var(--accent-color);
+  padding: 1rem 1.8rem;
+  margin-top: 1.8rem;
+  color: var(--silver-color);
+}
 
 
-
-
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
   .logo{
     text-align: left;
   }
   .m-none{
     margin: 0;
+  }
+  .btn-send{
+    
+    font-size: 1rem;
+    background-color: var(--accent-color);
+    padding: 0.7rem 1.1rem;
+    margin-top: 1.8rem;
+    color: var(--silver-color);
   }
 }
