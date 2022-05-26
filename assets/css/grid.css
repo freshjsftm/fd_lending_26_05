@@ -10,18 +10,15 @@
   display: none;
 }
 .container {
-  /* border: 1px solid red; */
   width: 100%;
   margin: auto;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(var(--size-space)*-1);
-  margin-right: calc(var(--size-space)*-1);
 }
 .row > *{
-  padding: var(--size-space);
+  /* padding: var(--size-space); */
 }
 .no-space > *{
   padding: 0;
@@ -298,7 +295,7 @@
 }
 @media screen and (min-width: 1200px){
   .container{
-    width: 1140px;
+    width: 1110px;
   }
   .col-xl-1 {
     --size-col: calc(var(--size) * 1);
