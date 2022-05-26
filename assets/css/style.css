@@ -1,43 +1,53 @@
 *,
 *::after,
-*::before{
+*::before {
   box-sizing: border-box;
 
   padding: 0;
   margin: 0;
 }
 
-img{
+img {
   width: 100%;
   /* height: 100%; */
 
   object-fit: cover;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
-  color: inherit
+  color: inherit;
 }
 
-
-:root{
-  --dark-blue-bg-color: #34547A;
-  --silver-bg-color: #EEEFF1;
+:root {
+  --dark-blue-bg-color: #34547a;
+  --silver-bg-color: #eeeff1;
   --dark-gray-color: #727272;
 
   color: #000;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
-.row-overflow{
+.title {
+  margin-bottom: 10px;
+
+  font-size: 1.6rem;
+  line-height: 1.2em;
+}
+
+.title:first-letter {
+  text-transform: uppercase;
+}
+
+/* .row-overflow{
   --row-size: 5;
   display: -webkit-box;
   -webkit-line-clamp:var(--row-size);
@@ -45,10 +55,16 @@ a{
   max-height: calc(1.5rem*var(--row-size));
   line-height: 1.5;
   overflow: hidden;
-}
+} */
 
-@media screen and (min-width: 768px){
-  :root{
+@media screen and (min-width: 768px) {
+  :root {
     font-size: 16px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+
+    font-size: 2rem;
   }
 }
