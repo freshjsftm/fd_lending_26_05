@@ -1,4 +1,7 @@
-.page-image {
+.content-wrapper {
+  align-items: center;
+}
+.page-image-wrapper {
     margin-right: auto;
 
     text-align: center;
@@ -32,6 +35,9 @@
   }
   
   @media screen and (min-width: 980px){
+    .page-image {
+      width: initial;
+    }
     .content-wrapper {
         padding-top: 16rem;
         padding-bottom: 9rem;
