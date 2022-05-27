@@ -2,6 +2,7 @@
 :root{
   --accent-color: #34547A;
   --silver-color: #EEEFF1;
+  --grey-color: #727272;
 
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -13,6 +14,7 @@ img{
 }
 
 .row-overflow{
+  margin-top: 2rem;
   --row-size: 5;
   display: -webkit-box;
   -webkit-line-clamp:var(--row-size);
@@ -20,6 +22,7 @@ img{
   max-height: calc(1.5rem*var(--row-size));
   line-height: 1.5;
   overflow: hidden;
+  color:var(--grey-color)
 }
 
 @media screen and (min-width: 768px){

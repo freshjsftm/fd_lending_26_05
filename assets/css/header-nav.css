@@ -36,9 +36,27 @@
   text-transform: uppercase;
   
 }
+.main-heading{
+  font-size: 3.8rem;
+  color:#000000;
+}
+.btn{
+  width: 14rem;
+  height: 3rem;
+  margin-top: 1.5rem;
+  color:#FFFFFF;
+  background-color:var(--accent-color)
+}
 
 
-
+@media screen and (max-width: 767px){
+  .row-overflow{
+    margin:0;
+  }
+  .header-image{
+    margin-top: 1rem
+  }
+}
 
 @media screen and (min-width: 768px){
   .logo{
@@ -46,5 +64,11 @@
   }
   .m-none{
     margin: 0;
+  }
+  .main-heading{
+    margin-top: 4.5rem;
+  }
+  .header-image{
+    margin-top: 5rem
   }
 }
