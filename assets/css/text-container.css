@@ -1,0 +1,13 @@
+.text-container {
+    margin: auto;
+
+    text-align: center;
+}
+.sub-heading {
+    padding-bottom: 50px;
+
+    font-size: 2rem;
+}
+.text-description {
+    color: var(--text-color)
+}

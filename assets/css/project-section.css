@@ -4,6 +4,9 @@
 
     background-color: var(--accent-color);
 }
+.justify-center {
+    justify-content: center;
+}
 .project-image {
     width: initial;
 }
