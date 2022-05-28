@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./assets/css/video.css" />
     <link rel="stylesheet" href="./assets/css/gallery.css" />
     <link rel="stylesheet" href="./assets/css/sponsors.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
   </head>
   <body>
     <header class="header">
@@ -335,6 +336,36 @@
             </p>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="container">
+        <form class="row form-inner">
+          <div class="form-box col-12 col-sm-8">
+            <div class="form-input-box">
+              <input
+                class="form-input name"
+                type="text"
+                name="firstname"
+                placeholder="Ваше имя"
+              />
+              <input
+                class="form-input email"
+                type="email"
+                name="email"
+                placeholder="Ваш e-mail"
+              />
+            </div>
+            <textarea
+              class="form-message"
+              type="text"
+              name="message"
+              placeholder="Сообщение"
+            ></textarea>
+            <button class="form-btn" type="submit">отправить</button>
+          </div>
+        </form>
       </div>
     </section>
   </body>
