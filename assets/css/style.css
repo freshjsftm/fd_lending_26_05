@@ -1,0 +1,74 @@
+:root {
+  --accent-color: #34547a;
+  --silver-color: #eeeff1;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+.row button {
+  margin-top: 60px;
+  height: 65px;
+  width: 225px;
+
+  background-color: var(--accent-color);
+  color:#FFF;
+}
+
+.main-heading {
+  margin: 250px 0 60px 0;
+  white-space: nowrap;
+  font-size: 3.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.row-overflow {
+  --row-size: 5;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--row-size);
+  -webkit-box-orient: vertical;
+  max-height: calc(1.5rem * var(--row-size));
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+ .section_projects {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 250px; 
+  background-color: var(--accent-color);
+} 
+
+.section_projects  img {
+  height: 50px;
+  width: 50px;
+}
+
+.section_projects p{
+margin: -40px 65px  40px 60px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  :root {
+    font-size: 16px;
+  }
+}
