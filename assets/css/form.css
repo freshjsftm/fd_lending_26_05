@@ -1,0 +1,84 @@
+.form {
+  padding-bottom: 30px;
+  background-color: #f9f9f9;
+}
+
+.form-input,
+.form-message {
+  display: block;
+  width: 100%;
+
+  padding: 0.9rem 1.1rem;
+  border: none;
+  margin-bottom: 1rem;
+
+  color: #5f5d5d;
+  background-color: #fff;
+
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6em;
+}
+
+.form-message {
+  height: 10vh;
+
+  resize: none;
+}
+
+.form-btn {
+  display: block;
+  padding: 1.1em 2.05em;
+  border: none;
+
+  color: #fff;
+  background-color: var(--dark-blue-bg-color);
+
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 576px) {
+  .form-box {
+    margin: 0 auto;
+  }
+  .form-input-box {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+  }
+
+  .form-message {
+    height: 15vh;
+
+    margin-bottom: 2.5rem;
+  }
+
+  .form-btn {
+    padding: 1.2em 2.5em;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    padding-bottom: 70px;
+  }
+
+  .form-message {
+    height: 20vh;
+  }
+
+  .form-btn {
+    padding: 1.2em 3.5em;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .form {
+    padding-bottom: 100px;
+  }
+
+  .form-message {
+    height: 25vh;
+  }
+}
