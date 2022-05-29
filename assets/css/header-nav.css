@@ -36,6 +36,9 @@
   text-transform: uppercase;
   
 }
+.margin-left{
+  margin-left: var(--size-space);
+}
 .main-heading{
   font-size: 3.8rem;
   color:#000000;
@@ -47,7 +50,11 @@
   color:#FFFFFF;
   background-color:var(--accent-color)
 }
-
+@media screen and (min-width: 576px){
+  .margin-left{
+    margin-left: 0;
+  }
+}
 
 @media screen and (max-width: 767px){
   .row-overflow{

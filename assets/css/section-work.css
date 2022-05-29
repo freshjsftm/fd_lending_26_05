@@ -1,0 +1,9 @@
+.bg-grey{
+  padding-top: 1.5rem;
+  background-color:var(--silver-color);
+}
+.video{
+  width: 100%;
+  height: 50vw;
+  padding: 10px;
+}

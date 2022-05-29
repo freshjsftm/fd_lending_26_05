@@ -1,0 +1,15 @@
+.projects{
+  background-color:var(--accent-color);
+}
+
+.project-img{
+  height: 50px;
+  width: 50px;
+  background-image: url(./../icons/project.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.flex-row{
+  display: flex;
+  align-items:center;
+}
