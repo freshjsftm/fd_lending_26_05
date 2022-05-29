@@ -1,6 +1,9 @@
 .projects{
   background-color:var(--accent-color);
 }
+.margi-top-container{
+  margin-top: 4rem;
+}
 
 .project-img{
   height: 50px;
@@ -12,4 +15,8 @@
 .flex-row{
   display: flex;
   align-items:center;
+}
+.project-content{
+  color:#FFFFFF;
+  padding: 12px;
 }
