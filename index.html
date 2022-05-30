@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lending</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lending</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Revalia&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/header-nav.css" />
+    <link rel="stylesheet" href="./assets/css/main-section.css" />
+    <link rel="stylesheet" href="./assets/css/article-section.css" />
+    <link rel="stylesheet" href="./assets/css/projects-section.css" />
+    <link rel="stylesheet" href="./assets/css/skills-section.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <nav class="container">
+        <div class="row flex-justify">
+          <a href="#" class="logo col-12 col-md-2 m-none">wd</a>
+          <ul class="nav-list">
+            <li class="list-item"><a href="#" class="nav-link">главная</a></li>
+            <li class="list-item"><a href="#" class="nav-link">об авторе</a></li>
+            <li class="list-item"><a href="#" class="nav-link">работы</a></li>
+            <li class="list-item"><a href="#" class="nav-link">процесс</a></li>
+            <li class="list-item"><a href="#" class="nav-link">контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="main-section">
+      <div class="container">
+        <div class="row flex-justify">
+          <div class="col-3 none block-md">
+            <img src="./assets/images/laptop.png" alt="">
+          </div>
+          <article class="col-12 col-sm-6 flex-column">
+            <h1 class="main-heading main-content">Дизайн и верстка</h1>
+            <p class="row-overflow main-content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <a class="btn">НАПИСАТЬ МНЕ</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="article-section">
+      <div class="container">
+        <div class="row article-justify">
+          <article class="col-6">
+            <h2 class="article-header">Обо мне</h2>
+            <p class="row-overflow article-content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="projects-section">
+      <div class="container">
+        <div class="row">
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="skills-sections">
+      <div class="container">
+        <div class="row">
+          <article class="skills col-6">
+            <h2 class="article-header">Мои навыки</h2>
+            <ul>
+              <li>
+                <p>adobe photoshop</p>
+                <div class="skill-line"></div>
+              </li>
+              <li>
+                <p>adobe photoshop</p>
+                <div class="skill-line"></div>
+              </li>
+              <li>
+                <p class="">adobe photoshop</p>
+                <div class="skill-line"></div>
+              </li>
+            </ul>
+          </article>
+          <div>
+            <img src="./assets/images/man_555.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

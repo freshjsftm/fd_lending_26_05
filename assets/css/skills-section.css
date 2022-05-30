@@ -1,0 +1,7 @@
+.skill-line{
+  display: block;
+  width: 445px;
+  height: 4px;  
+  background: rgb(52,84,122);
+  background: linear-gradient(90deg, rgba(52,84,122,1) 80%, rgba(196,196,196,1) 80%);
+}

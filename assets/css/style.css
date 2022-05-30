@@ -1,0 +1,52 @@
+
+:root{
+  --accent-color: #34547A;
+  --silver-color: #EEEFF1;
+  --text-color: #727272;
+  --btn-text-color: #FFFFFF;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img{
+  width: 100%;
+}
+
+.row-overflow{
+  --row-size: 5;
+  display: -webkit-box;
+  -webkit-line-clamp:var(--row-size);
+  -webkit-box-orient: vertical;
+  max-height: calc(1.5rem*var(--row-size));
+  line-height: 1.5;
+  overflow: hidden;
+  color: var(--text-color);
+}
+.btn{
+  display: inline-block;
+  padding: 1.56rem 2.56rem;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: var(--accent-color);
+  color: var(--btn-text-color) ;
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+  :root{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 980px){
+  :root{
+    font-size: 16px;
+  }
+}
