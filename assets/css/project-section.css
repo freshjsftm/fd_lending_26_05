@@ -1,8 +1,10 @@
 .project-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 5.2% 0;
 
     background-color: var(--accent-color);
+}
+.project-wrapper {
+    padding: var(--size-space);
 }
 .justify-center {
     justify-content: center;
@@ -22,4 +24,9 @@
 }
 .project-count {
     font-size: 1.5rem;
+}
+@media screen and (min-width: 576px){
+    .project-wrapper {
+        padding: 0;
+    }
 }
