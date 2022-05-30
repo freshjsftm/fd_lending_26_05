@@ -1,0 +1,25 @@
+.project{
+
+    background: var(--accent-color);
+    
+    padding: 3rem;
+}
+.project-text{
+    padding-left: 0.7rem;
+    font-size: 1.3rem;
+    color: white;
+}
+.project-img{
+    
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.project-item{
+    display: flex;
+}
+
+
+
+
