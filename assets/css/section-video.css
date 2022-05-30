@@ -1,0 +1,27 @@
+.section-video {
+    padding: 5.2% 0;
+
+    background-color: var(--silver-color);
+}
+.wrap-video {
+    --ratio: calc(9 / 16);
+
+    margin-top: 3%;
+
+    position: relative;
+
+    padding-top: calc(var(--ratio) * 100%);
+}
+.video {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 768px){
+    .section-video-text {
+        margin-top: 100px;
+        padding-bottom: 57px;
+    }
+  }

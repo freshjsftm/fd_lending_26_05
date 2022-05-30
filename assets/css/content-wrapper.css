@@ -1,0 +1,43 @@
+.content-wrapper {
+  padding-left: 3%;
+  margin-top: 8.7%;
+  margin-bottom: 9.6%;
+
+  align-items: center;
+
+  text-align: center;
+}
+.page-image-wrapper {
+    margin-right: auto;
+}
+.main-heading {
+    font-size: 3rem;
+    text-align: center;
+}
+.text-description-main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    color: #727272;
+
+    line-height: 1,64;
+}
+
+@media screen and (min-width: 576px){
+  .content-wrapper {
+    padding-left: 0;
+
+    text-align: left;
+  }
+  .page-image-wrapper {
+    text-align: center;
+  }
+  .main-heading {
+    text-align: left;
+  }
+}
+  @media screen and (min-width: 980px){
+    .page-image {
+      width: initial;
+    }
+  }

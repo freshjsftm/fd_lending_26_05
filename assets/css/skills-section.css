@@ -1,0 +1,18 @@
+.skills-section {
+    margin: 5.2% 0;
+}
+.level {
+    width: 80vw;
+    height: 4px;
+    margin-top: 1%;
+    margin-bottom: 1.55%;
+
+    background: rgb(52,84,122);
+    background: linear-gradient(90deg, rgba(52,84,122,1) 87.5%, rgba(196,196,196,1) 87.5%, rgba(196,196,196,1) 100%);
+}
+
+@media screen and (min-width: 576px){
+    .level {
+        width: 445px;
+    }
+}

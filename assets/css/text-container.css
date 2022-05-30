@@ -1,0 +1,17 @@
+.text-container {
+    margin: auto;
+
+    text-align: center;
+}
+.sub-heading {
+    padding-bottom: 2.6%;
+
+    font-size: 2rem;
+
+    line-height: 2.4em;
+}
+.text-description {
+    color: var(--text-color);
+
+    line-height: 1.64em;
+}

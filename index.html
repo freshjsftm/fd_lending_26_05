@@ -19,12 +19,19 @@
     <link rel="stylesheet" href="./assets/css/grid.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/header-nav.css" />
+    <link rel="stylesheet" href="/assets/css/content-wrapper.css">
+    <link rel="stylesheet" href="./assets/css/button.css">
+    <link rel="stylesheet" href="./assets/css/project-section.css">
+    <link rel="stylesheet" href="./assets/css/text-container.css">
+    <link rel="stylesheet" href="./assets/css/section-video.css">
+    <link rel="stylesheet" href="./assets/css/section-project-gallery.css">
+    <link rel="stylesheet" href="./assets/css/skills-section.css">
   </head>
-  <body>
+  <div>
     <header class="navigation">
       <nav class="container">
-        <div class="row flex-justify">
-          <a href="#" class="logo m-none">wd</a>
+        <div class="row flex-justify no-space">
+          <a href="#" class="logo col-12 col-md-2 m-none">wd</a>
           <ul class="nav-list">
             <li class="list-item"><a href="#" class="nav-link">главная</a></li>
             <li class="list-item"><a href="#" class="nav-link">об авторе</a></li>
@@ -37,15 +44,135 @@
     </header>
     <section class="main">
       <div class="container">
-        <div class="row">
-          <div class="col-6 none block-sm">
-            <img src="./assets/images/laptop.png" alt="">
+        <div class="row content-wrapper">
+          <div class="col-6 none block-sm page-image-wrapper">
+            <img class="page-image" src="./assets/images/laptop.png" alt="Laptop">
           </div>
-          <div class="col-12 col-sm-6">
+          <div class="col-12 col-sm-6 no-space">
             <h1 class="main-heading">Дизайн и верстка</h1>
-            <p class="row-overflow">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            <button>НАПИСАТЬ МНЕ</button>
+            <p class="row-overflow text-description-main no-space">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <button class="button">НАПИСАТЬ МНЕ</button>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="project-section">
+      <div class="container">
+        <div class="row justify-center no-space">
+          <div class="col-sm-6 col-md-4 col-lg-2 project-wrapper">
+            <img class="project-image" src="./assets/images/project.svg" alt="Project">
+            <article class="project-text">
+              <p class="project-count">40+</p>
+              <p>проектов</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 project-wrapper">
+            <img class="project-image" src="./assets/images/project.svg" alt="Project">
+            <article class="project-text">
+              <p class="project-count">40+</p>
+              <p>проектов</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 project-wrapper">
+            <img class="project-image" src="./assets/images/project.svg" alt="Project">
+            <article class="project-text">
+              <p class="project-count">40+</p>
+              <p>проектов</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 project-wrapper">
+            <img class="project-image" src="./assets/images/project.svg" alt="Project">
+            <article class="project-text">
+              <p class="project-count">40+</p>
+              <p>проектов</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 project-wrapper">
+            <img class="project-image" src="./assets/images/project.svg" alt="Project">
+            <article class="project-text">
+              <p class="project-count">40+</p>
+              <p>проектов</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 project-wrapper">
+            <img class="project-image" src="./assets/images/project.svg" alt="Project">
+            <article class="project-text">
+              <p class="project-count">40+</p>
+              <p>проектов</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills-section">
+      <div class="container">
+        <div class="row no-space margin-auto">
+          <div class="col-12 col-md-6">
+            <h2 class="sub-heading">Мои навыки</h2>
+            <p class="text-description">Adobe Photoshop</p>
+            <div class="level"></div>
+            <p class="text-description">Adobe Photoshop</p>
+            <div class="level"></div>
+            <p class="text-description">Adobe Photoshop</p>
+            <div class="level"></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <picture>
+              <source srcset="./assets/images/man.jpeg" media="(min-width: 768px)" type="image/jpeg">
+              <img src="./assets/images/man_555.jpg" alt="Man">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-video">
+      <div class="container">
+        <div class="row no-space">
+          <div class="col-12 col-lg-6 text-container">
+            <h2 class="sub-heading">Как я работаю</h2>
+            <p class="row-overflow text-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+          </div>
+        </div>
+        <div class="row no-space">
+          <div class="col-12 wrap-video no-space">
+            <iframe class="video no-space" src="https://www.youtube.com/embed/cJE6KxYL_UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-project-gallery">
+      <div class="row no-space no-padding">
+        <div class="col-12 col-sm-6 col-lg-3 project-gallery-container">
+          <div class="background-gallery-container"></div>
+          <img src="./assets/images/project-pages.png" alt="Project pages" >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 project-gallery-container">
+          <div class="background-gallery-container"></div>
+          <img src="./assets/images/project-laptops.png" alt="Project laptops" >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 project-gallery-container">
+          <div class="background-gallery-container"></div>
+          <img src="./assets/images/project-pages.png" alt="Project pages" >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 project-gallery-container">
+          <div class="background-gallery-container"></div>
+          <img src="./assets/images/project-laptops.png" alt="Project laptops" >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 project-gallery-container">
+          <div class="background-gallery-container"></div>
+          <img src="./assets/images/project-pages.png" alt="Project pages" >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 project-gallery-container">
+          <div class="background-gallery-container"></div>
+          <img src="./assets/images/project-laptops.png" alt="Project laptops" >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 project-gallery-container">
+          <div class="background-gallery-container"></div>
+          <img src="./assets/images/project-pages.png" alt="Project pages" >
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 project-gallery-container">
+          <div class="background-gallery-container"></div>
+          <img src="./assets/images/project-laptops.png" alt="Project laptops" >
         </div>
       </div>
     </section>

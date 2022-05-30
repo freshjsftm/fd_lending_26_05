@@ -1,0 +1,32 @@
+.project-section {
+    padding: 5.2% 0;
+
+    background-color: var(--accent-color);
+}
+.project-wrapper {
+    padding: var(--size-space);
+}
+.justify-center {
+    justify-content: center;
+}
+.project-image {
+    width: initial;
+}
+.project-text {
+    display: inline-block;
+    padding-left: 1rem;
+
+    color: var(--secondary-color);
+
+    vertical-align: middle;
+
+    line-height: 1.7rem;
+}
+.project-count {
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 576px){
+    .project-wrapper {
+        padding: 0;
+    }
+}
