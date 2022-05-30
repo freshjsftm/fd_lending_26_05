@@ -10,7 +10,6 @@
   display: none;
 }
 .container {
-  /* border: 1px solid red; */
   width: 100%;
   margin: auto;
 }
@@ -23,8 +22,14 @@
 .row > *{
   padding: var(--size-space);
 }
+.no-space {
+  margin-left: 0;
+  margin-right: 0;
+}
+.no-space,
 .no-space > *{
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 .col-1 {
   --size-col: calc(var(--size) * 1);
