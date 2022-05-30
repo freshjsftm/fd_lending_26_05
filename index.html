@@ -19,12 +19,16 @@
     <link rel="stylesheet" href="./assets/css/grid.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/header-nav.css" />
+    <link rel="stylesheet" href="./assets/css/main-section.css" />
+    <link rel="stylesheet" href="./assets/css/article-section.css" />
+    <link rel="stylesheet" href="./assets/css/projects-section.css" />
+    <link rel="stylesheet" href="./assets/css/skills-section.css" />
   </head>
   <body>
     <header class="navigation">
       <nav class="container">
         <div class="row flex-justify">
-          <a href="#" class="logo m-none">wd</a>
+          <a href="#" class="logo col-12 col-md-2 m-none">wd</a>
           <ul class="nav-list">
             <li class="list-item"><a href="#" class="nav-link">главная</a></li>
             <li class="list-item"><a href="#" class="nav-link">об авторе</a></li>
@@ -35,16 +39,100 @@
         </div>
       </nav>
     </header>
-    <section class="main">
+    <section class="main-section">
       <div class="container">
-        <div class="row">
-          <div class="col-6 none block-sm">
+        <div class="row flex-justify">
+          <div class="col-3 none block-md">
             <img src="./assets/images/laptop.png" alt="">
           </div>
-          <div class="col-12 col-sm-6">
-            <h1 class="main-heading">Дизайн и верстка</h1>
-            <p class="row-overflow">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-            <button>НАПИСАТЬ МНЕ</button>
+          <article class="col-12 col-sm-6 flex-column">
+            <h1 class="main-heading main-content">Дизайн и верстка</h1>
+            <p class="row-overflow main-content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <a class="btn">НАПИСАТЬ МНЕ</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="article-section">
+      <div class="container">
+        <div class="row article-justify">
+          <article class="col-6">
+            <h2 class="article-header">Обо мне</h2>
+            <p class="row-overflow article-content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="projects-section">
+      <div class="container">
+        <div class="row">
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+          <article class="col-6 col-md-4 col-lg-2 flex-article ">
+            <img class="icon" src="./assets/icons/project.png" alt="project">
+            <div>
+              <p>40 +</p>
+              <p>проектов</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="skills-sections">
+      <div class="container">
+        <div class="row">
+          <article class="skills col-6">
+            <h2 class="article-header">Мои навыки</h2>
+            <ul>
+              <li>
+                <p>adobe photoshop</p>
+                <div class="skill-line"></div>
+              </li>
+              <li>
+                <p>adobe photoshop</p>
+                <div class="skill-line"></div>
+              </li>
+              <li>
+                <p class="">adobe photoshop</p>
+                <div class="skill-line"></div>
+              </li>
+            </ul>
+          </article>
+          <div>
+            <img src="./assets/images/man_555.jpg" alt="">
           </div>
         </div>
       </div>

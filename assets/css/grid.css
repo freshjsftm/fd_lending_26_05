@@ -17,8 +17,8 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(var(--size-space)*-1);
-  margin-right: calc(var(--size-space)*-1);
+  /* margin-left: calc(var(--size-space)*-1);
+  margin-right: calc(var(--size-space)*-1); */
 }
 .row > *{
   padding: var(--size-space);
@@ -231,6 +231,12 @@
   
 }
 @media screen and (min-width: 992px){
+  .block-lg{
+    display: block;
+  }
+  .none-lg{
+    display: none;
+  }
   .container{
     width: 960px;
   }
@@ -297,6 +303,12 @@
   
 }
 @media screen and (min-width: 1200px){
+  .block-xl{
+    display: block;
+  }
+  .none-xl{
+    display: none;
+  }
   .container{
     width: 1140px;
   }
