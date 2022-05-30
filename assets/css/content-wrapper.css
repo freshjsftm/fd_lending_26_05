@@ -1,10 +1,14 @@
 .content-wrapper {
+  padding-left: 3%;
+  margin-top: 8.7%;
+  margin-bottom: 9.6%;
+
   align-items: center;
+
+  text-align: center;
 }
 .page-image-wrapper {
     margin-right: auto;
-
-    text-align: center;
 }
 .main-heading {
     font-size: 3rem;
@@ -20,23 +24,20 @@
 }
 
 @media screen and (min-width: 576px){
-    .main-heading{
-      text-align: left;
-    }
+  .content-wrapper {
+    padding-left: 0;
+
+    text-align: left;
   }
-@media screen and (min-width: 768px){
-    .content-wrapper {
-        padding-top: 15rem;
-        padding-bottom: 10rem;
-    }
+  .page-image-wrapper {
+    text-align: center;
   }
-  
+  .main-heading {
+    text-align: left;
+  }
+}
   @media screen and (min-width: 980px){
     .page-image {
       width: initial;
-    }
-    .content-wrapper {
-        padding-top: 16rem;
-        padding-bottom: 9rem;
     }
   }
