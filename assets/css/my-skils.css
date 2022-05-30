@@ -1,0 +1,30 @@
+.line{
+  width: 80%;
+  height: 4px;
+  background-image: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color) 71%, 
+  #C4C4C4 71%,  #C4C4C4 100%);
+}
+.skil{
+  padding: 1rem 0;
+}
+.shift-left{
+  padding-left: 2rem;
+}
+.shift-right{
+padding-left: 2rem;
+}
+.line{
+  margin-top: 10px;
+}
+
+
+@media screen and (min-width:768px){
+  .shift-left{
+    margin-left: -0.5rem;
+    padding: 0;
+  } 
+   .shift-right{
+    margin-right: -0.5rem;
+    padding: 0;
+    }
+}

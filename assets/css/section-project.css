@@ -1,0 +1,22 @@
+.projects{
+  background-color:var(--accent-color);
+}
+.margi-top-container{
+  margin-top: 4rem;
+}
+
+.project-img{
+  height: 50px;
+  width: 50px;
+  background-image: url(./../icons/project.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.flex-row{
+  display: flex;
+  align-items:center;
+}
+.project-content{
+  color:#FFFFFF;
+  padding: 12px;
+}

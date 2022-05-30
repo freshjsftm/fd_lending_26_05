@@ -1,0 +1,16 @@
+.general-text{
+  display: flex;
+flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-top: 3rem;
+}
+.main-text{
+  font-size: 2rem;
+  color:#000000;
+}
+@media screen and (min-width 577px) {
+  .row{
+    padding-right: 2rem;
+  }
+}
