@@ -1,0 +1,20 @@
+.about-project {
+  padding: var(--size-space);
+  background-color: var(--accent-color);
+}
+.about-project-wrapper{
+  display: flex;
+}
+.project-img{
+  width: 50px;
+  height: 50px;
+  margin-right: var(--size-space);
+}
+.project-description{
+  color: #FFFFFF
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
